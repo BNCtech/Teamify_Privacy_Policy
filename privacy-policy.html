@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimchat - Privacy Policy</title>
+    <link rel="icon" type="image/png" href="app_icon.png">
+    <link rel="apple-touch-icon" href="app_icon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            color: #1a1a2e;
+            background: #ffffff;
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        /* ── Header ── */
+        .header {
+            background: #1a1a2e;
+            color: white;
+            padding: 48px 24px;
+            text-align: center;
+        }
+        .header .app-icon {
+            width: 72px;
+            height: 72px;
+            border-radius: 16px;
+            margin-bottom: 16px;
+        }
+        .header h1 {
+            font-size: 1.75em;
+            font-weight: 700;
+            margin-bottom: 4px;
+        }
+        .header .subtitle {
+            font-size: 0.85em;
+            font-weight: 500;
+            color: #a0aec0;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+        }
+        .header .last-updated {
+            margin-top: 14px;
+            font-size: 0.75em;
+            color: #718096;
+        }
+
+        /* ── Main ── */
+        .main {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 40px 24px 60px;
+        }
+
+        /* ── Intro ── */
+        .intro {
+            font-size: 0.95em;
+            line-height: 1.75;
+            color: #4a5568;
+            padding-bottom: 32px;
+            border-bottom: 1px solid #e2e8f0;
+            margin-bottom: 32px;
+        }
+
+        /* ── Sections ── */
+        .section {
+            margin-bottom: 36px;
+        }
+        .section:last-child {
+            margin-bottom: 0;
+        }
+
+        h2 {
+            font-size: 1.1em;
+            font-weight: 700;
+            color: #1a1a2e;
+            margin-bottom: 14px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #1a1a2e;
+            display: inline-block;
+        }
+
+        h3 {
+            font-size: 0.8em;
+            font-weight: 600;
+            color: #718096;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin: 20px 0 10px;
+        }
+        .section h3:first-of-type {
+            margin-top: 4px;
+        }
+
+        /* ── Lists ── */
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            padding: 8px 0 8px 20px;
+            position: relative;
+            line-height: 1.65;
+            color: #4a5568;
+            font-size: 0.9em;
+        }
+        li::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 16px;
+            width: 6px;
+            height: 6px;
+            background: #1a1a2e;
+            border-radius: 50%;
+        }
+        li + li {
+            border-top: 1px solid #f7fafc;
+        }
+        li strong {
+            color: #1a1a2e;
+            font-weight: 600;
+        }
+
+        /* ── Paragraphs & Links ── */
+        p {
+            line-height: 1.7;
+            color: #4a5568;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        a {
+            color: #2b6cb0;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+
+        /* ── Divider ── */
+        .divider {
+            height: 1px;
+            background: #e2e8f0;
+            margin: 36px 0;
+        }
+
+        /* ── Contact ── */
+        .contact {
+            background: #f7fafc;
+            border-radius: 12px;
+            padding: 32px;
+            text-align: center;
+            border: 1px solid #e2e8f0;
+            margin-top: 36px;
+        }
+        .contact h2 {
+            display: block;
+            border-bottom: none;
+            padding-bottom: 0;
+            margin-bottom: 8px;
+        }
+        .contact p {
+            margin-bottom: 16px;
+        }
+        .contact .email-btn {
+            display: inline-block;
+            padding: 12px 28px;
+            background: #1a1a2e;
+            color: white;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95em;
+            text-decoration: none;
+            transition: background 0.2s;
+        }
+        .contact .email-btn:hover {
+            background: #2d2d4a;
+            text-decoration: none;
+        }
+
+        /* ── Footer ── */
+        .footer {
+            text-align: center;
+            padding: 24px;
+            color: #a0aec0;
+            font-size: 0.75em;
+            border-top: 1px solid #f0f0f0;
+        }
+
+        /* ── Mobile ── */
+        @media (max-width: 600px) {
+            .header { padding: 36px 20px; }
+            .header h1 { font-size: 1.5em; }
+            .header .app-icon { width: 60px; height: 60px; }
+            .main { padding: 28px 16px 40px; }
+            .contact { padding: 24px 20px; }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <img src="app_icon.png" alt="Nimchat" class="app-icon">
+        <h1>Nimchat</h1>
+        <div class="subtitle">Privacy Policy</div>
+        <div class="last-updated">Last updated: March 4, 2026</div>
+    </div>
+
+    <div class="main">
+
+        <div class="intro">
+            Nimchat ("we", "our", or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use the Nimchat mobile application ("App").
+        </div>
+
+        <div class="section">
+            <h2>Information We Collect</h2>
+
+            <h3>Account Information</h3>
+            <ul>
+                <li><strong>Registration Data:</strong> When you create an account, we collect your name, email address, and profile photo.</li>
+                <li><strong>Authentication Data:</strong> We use secure API-based authentication to manage your account.</li>
+            </ul>
+
+            <h3>Messages and Content</h3>
+            <ul>
+                <li><strong>Chat Messages:</strong> Messages you send and receive are stored in our database to deliver them to intended recipients. Messages are encrypted for your security.</li>
+                <li><strong>Media Files:</strong> Photos, videos, documents, and voice messages you share are stored securely using Firebase Storage.</li>
+            </ul>
+
+            <h3>Device and Usage Information</h3>
+            <ul>
+                <li><strong>Device Tokens:</strong> We collect Firebase Cloud Messaging (FCM) tokens to send you push notifications.</li>
+                <li><strong>Local Storage:</strong> We store preferences and cached data locally on your device for a better user experience.</li>
+            </ul>
+
+            <h3>Permissions and Sensor Data</h3>
+            <ul>
+                <li><strong>Camera and Microphone:</strong> Used for video and audio calls and for capturing photos or recording voice messages. We only access these when you initiate a call, take a photo, or record a voice message.</li>
+                <li><strong>Location:</strong> Used for location sharing features within chats. Location is only accessed when you choose to share your location.</li>
+                <li><strong>Bluetooth:</strong> Used solely for audio routing during calls (e.g., connecting to Bluetooth headsets).</li>
+                <li><strong>Notifications:</strong> Used to deliver message notifications and call alerts.</li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <h2>How We Use Your Information</h2>
+            <ul>
+                <li>To provide and maintain the chat and calling service</li>
+                <li>To deliver your messages and media to intended recipients</li>
+                <li>To send push notifications for new messages and incoming calls</li>
+                <li>To enable video and audio calling features</li>
+                <li>To allow location sharing when you choose to share your location</li>
+                <li>To improve and personalize your experience</li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <h2>Data Security</h2>
+            <p>We take data security seriously:</p>
+            <ul>
+                <li>Messages are encrypted to protect your conversations</li>
+                <li>Sensitive data is stored using encrypted local storage on your device</li>
+                <li>We use secure HTTPS connections for all data transfers</li>
+                <li>Authentication is handled through secure API-based methods following industry-standard security practices</li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <h2>Third-Party Services</h2>
+            <p>We use the following third-party services that may collect information:</p>
+            <ul>
+                <li><strong>Google Firebase:</strong> Database, file storage, and push notifications. <a href="https://firebase.google.com/support/privacy">Firebase Privacy Policy</a></li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <h2>Data Retention</h2>
+            <ul>
+                <li>Account data is retained as long as your account is active.</li>
+                <li>Messages and media are retained to provide the chat service.</li>
+                <li>You may request deletion of your account and associated data by contacting us.</li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <h2>Your Rights</h2>
+            <p>You have the right to:</p>
+            <ul>
+                <li>Access the personal information we hold about you</li>
+                <li>Request correction of inaccurate data</li>
+                <li>Request deletion of your account and data</li>
+                <li>Revoke permissions (camera, microphone, location) at any time through your device settings</li>
+            </ul>
+        </div>
+
+        <div class="divider"></div>
+
+        <div class="section">
+            <h2>Changes to This Policy</h2>
+            <p>We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy within the App. You are advised to review this Privacy Policy periodically.</p>
+        </div>
+
+        <div class="contact">
+            <h2>Contact Us</h2>
+            <p>If you have any questions about this Privacy Policy or wish to exercise your data rights, please contact us at:</p>
+            <a href="mailto:info@bncmotors.in" class="email-btn">info@bncmotors.in</a>
+        </div>
+
+    </div>
+
+    <div class="footer">
+        &copy; 2026 Nimchat. All rights reserved.
+    </div>
+
+</body>
+</html>
